@@ -11,3 +11,6 @@ def is_prime(num):
         if num % i == 0:
             return False
     return True
+
+def five(num):
+    return num & (num - 1) == 0 and num != 0
