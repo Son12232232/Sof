@@ -10,10 +10,6 @@ def is_prime(num):
     for i in range(2, int(num**0.5) + 1):
         if num % i == 0:
             return False
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    return True
-=======
     return True
 
 def five(num):
@@ -29,10 +25,6 @@ def two(number):
             return False
         number //= 2
     return number == 1
->>>>>>> Stashed changes
-=======
     return True
 
-def five(num):
-    return num & (num - 1) == 0 and num != 0
->>>>>>> dev5
+
