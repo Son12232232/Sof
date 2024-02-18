@@ -10,4 +10,22 @@ def is_prime(num):
     for i in range(2, int(num**0.5) + 1):
         if num % i == 0:
             return False
+<<<<<<< Updated upstream
     return True
+=======
+    return True
+
+def five(num):
+    while num > 1:
+        if num % 5 != 0:
+            return False
+        num /= 5
+    return num == 1
+
+def two(number):
+    while number > 1:
+        if number % 2 != 0:
+            return False
+        number //= 2
+    return number == 1
+>>>>>>> Stashed changes
